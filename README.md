@@ -10,6 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.![Screenshot 2024-03-26 150828]
 
+![Screenshot 2024-03-26 151028](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/8fb759a2-29f2-4968-b731-ba65ec3fd2b2)
 
 ## Build
 
