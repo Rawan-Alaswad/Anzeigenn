@@ -49,11 +49,16 @@ datenbank lesen & löschen
 Datenbank erstellen
 
 
-![Screenshot 2024-03-26 150955]![Screenshot 2024-03-26 151008]![Screenshot 2024-03-26 151028]![Screenshot 2024-03-26 151028](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/33302a97-6aad-42fc-806e-bd106e6b7c4b)
+![Screenshot 2024-03-26 151008](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/fb278136-e143-4bc0-9640-d317de92ed64)
+
+
+
 
 
 
 Datenbank aktualisieren
 
-![Screenshot 2024-03-26 151008](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/fb278136-e143-4bc0-9640-d317de92ed64)
+
+![Screenshot 2024-03-26 151028]![Screenshot 2024-03-26 151028](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/33302a97-6aad-42fc-806e-bd106e6b7c4b)
+
 
