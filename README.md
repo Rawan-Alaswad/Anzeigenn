@@ -8,7 +8,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.![Screenshot 2024-03-26 150828]
+
 
 ## Build
 
@@ -24,4 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.![Screenshot 2024-03-26 150828](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/8466eddf-7c93-457e-888c-3ff68da1d621)
+![Screenshot 2024-03-26 150924](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/8cb7932c-4642-44f8-a4cd-7b072ad13af9)
+![Screenshot 2024-03-26 150955](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/a06455f7-cf9b-41b2-9709-a3cf4f32f466)![Screenshot 2024-03-26 151008](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/315378f3-72dd-4168-9c55-547c6c0e9eec![Screenshot 2024-03-26 151028](https://github.com/Rawan-Alaswad/Anzeigenn/assets/72943980/9e551e2d-09c6-46ab-861c-1940218cdb12)
+)
+
+
