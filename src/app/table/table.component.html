@@ -1,0 +1,38 @@
+<app-header></app-header>
+<main>
+  <div class="container mt-3">
+      <h3 class="m-3 dark-navy">Sehe Alle Anzeigen!</h3>
+      <div class="table-responsive">
+          <table class="m-3 table table-striped table-hover table-bordered">
+              <thead class="text-center">
+                  <tr>
+                      <th scope="col">Art</th>
+                     
+                      <th scope="col">Preis</th>
+                      <th scope="col">Zustand</th>
+                      
+                      <th scope="col">Aktionen</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let anzeige of anzeige">
+
+                      <td>{{ anzeige.titel }}</td>
+                      <td>{{ anzeige.preis }}</td>
+                      <td>{{ anzeige.zustand }}</td>
+                    
+                      <td>
+                      <a [routerLink]="['/anzeige',anzeige._id]"> <span style='font-size: 1rem' class="bi bi-pencil-square px-5"></span></a>
+                       <span (click)="anzeige._id && delete(anzeige._id)" style='font-size: 1,5rem' class="bi bi-trash px-5"></span>
+                  
+                      </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div *ngIf="deleted" class="container mt-3">
+  <h3>Anzeige wurde erfolgreich gelöscht!</h3>
+  <button type="button" class="btn btn-secondary" (click)="reload(false)">Zurück zur Tabelle</button>
+  </div>
+</main>

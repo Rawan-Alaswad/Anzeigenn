@@ -1,0 +1,34 @@
+
+<main class="d-flex min-vh-100">
+    <fieldset class="container  mt-5">
+
+        <fieldset class="container  mt-5">
+            <legend *ngIf="!Anzeigen" class="mb-4">ANZEIGEN ERSTELLEN</legend>
+            <form [formGroup]="form" (ngSubmit)="create()">
+        <div class="mb-3 row">
+          <label class="col-2 col-form-label" for="titel">Art</label>
+          <div class="col-10">
+            <input type="text" class="form-control" id="titel" placeholder="Titel"
+            formControlName="titelControl" />
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label class="col-2 col-form-label" for="preis">Preis</label>
+          <div class="col-10">
+            <input type="text" class="col-10 form-control" id="preis" placeholder="Preis" formControlName="preisControl" />
+          </div>
+        </div>
+        
+        <div class="mb-3 row">
+          <label class="col-2 col-form-label" for="zustand">Zustand</label>
+          <div class="col-10">
+            <input type="text" class="col-10 form-control" id="zustand" placeholder="zustand" formControlName="zustandControl" />
+          </div>
+        </div>
+            <div class="row ">
+                <button type="submit" class="col-5 btn btn-secondary">Erstellen</button>
+                <div class="col-2"></div>
+                <button type="button" class="col-5 btn btn-secondary" (click)="cancel() ">Abbrechen</button>
+            </div>
+        

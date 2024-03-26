@@ -1,0 +1,43 @@
+
+<div style="display: flex; justify-content: center;">
+  </div>
+  
+  <main class="d-flex min-vh-100">
+    <fieldset class="container  mt-5">
+      <legend *ngIf="anzeige" class="mb-4">Anzeigen von {{ anzeige.titel }} aktualisieren
+      </legend>
+  
+      <form [formGroup]="form" (ngSubmit)="update()">
+        
+        <div class="mb-3 row">
+          <label class="col-2 col-form-label" style="font-weight: bold" for="titel">Art</label>
+          <div class="col-10">
+            <input type="text" class="form-control" id="titel" placeholder="titel"
+              formControlName="titelControl" required (blur)="onBlurTitel()" />
+            <div *ngIf="showTitelWarning" class="alert alert-danger">
+              {{form.get('titelControl')?.errors?.['required'] && 'Please provide a titel such as shirt, trousers etc.' || ERROR_MESSAGE}}
+            </div>
+          </div>
+        </div>
+          <div class="mb-3 row">
+            <label class="col-2 col-form-label" style="font-weight: bold" for="preis">Preis</label>
+            <div class="col-10">
+              <input type="preis" class="col-10 form-control" id="preis" placeholder="preis" formControlName="preisControl" />
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label class="col-2 col-form-label" style="font-weight: bold" for="zustand">Zustand</label>
+            <div class="col-10">
+              <input type="zustand" class="col-10 form-control" id="zustand" placeholder="zustand" formControlName="zustandControl" />
+            </div>
+          </div>
+    
+   
+          <div class="row ">
+            <button type="submit" class="col-5 btn btn-secondary">Aktualisieren</button>
+            <div class="col-2"></div>
+            <button type="button" class="col-5 btn btn-secondary" (click)="cancel() ">Stornieren</button>
+          </div>
+        </form>
+      </fieldset>
+    </main>

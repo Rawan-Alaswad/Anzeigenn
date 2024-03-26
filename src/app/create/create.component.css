@@ -1,0 +1,13 @@
+main {
+    background-color: #9c87e7ba;
+  }
+    
+    legend {
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+    }
+  
+    #imy-label {
+      font-weight: bold;
+      text-align: right;
+    }

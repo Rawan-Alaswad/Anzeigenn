@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-container {
+  background-color: #e77d50ba;
+  background-color: #9c87e7ba;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 5rem; 
+}
+
+.content {
+    max-width: 1200px; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0.5em 0;
+}
+
+.li {
+    color: white;
+}
